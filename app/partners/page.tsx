@@ -100,11 +100,11 @@ export default function PartnersPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16  rounded-lg flex items-center justify-center">
-                      <img src="https://neoris.com/documents/20126/0/SAP-gold-partner-logo.png/021ba2c8-8a59-a73c-7348-9b994f4d7da6?version=1.0&t=1716822579112&imagePreview=1" alt="" />
+                      <img src=".\images\icons\sap1.png" alt="" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900">SAP Gold Partner</h3>
-                      <p className="text-blue-600 font-medium">Premier Partnership</p>
+                      <h3 className="text-xl font-semibold text-gray-900">SAP Partner</h3>
+                      {/* <p className="text-blue-600 font-medium">Premier Partnership</p> */}
                     </div>
                   </div>
                   <ul className="space-y-2 text-gray-600 text-sm">
@@ -120,11 +120,11 @@ export default function PartnersPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16 rounded-lg flex items-center justify-center">
-                      <img src="https://img.icons8.com/?size=100&id=YJfJ0JM5Imsj&format=png&color=000000" alt="" />
+                      <img src=".\images\icons\microsoft1.png" alt="" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900">Microsoft Gold Partner</h3>
-                      <p className="text-green-600 font-medium">Gold Competency</p>
+                      <h3 className="text-xl font-semibold text-gray-900">Microsoft Partner</h3>
+                      {/* <p className="text-green-600 font-medium">Gold Competency</p> */}
                     </div>
                   </div>
                   <ul className="space-y-2 text-gray-600 text-sm">
@@ -140,11 +140,11 @@ export default function PartnersPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16 rounded-lg flex items-center justify-center">
-                    <img src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000" alt="Powered by AWS Cloud Computing" />  
+                    <img src=".\images\icons\aws1.png" alt="Powered by AWS Cloud Computing" />  
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900">AWS Advanced Partner</h3>
-                      <p className="text-orange-600 font-medium">Advanced Tier</p>
+                      <h3 className="text-xl font-semibold text-gray-900">AWS Partner</h3>
+                      {/* <p className="text-orange-600 font-medium">Advanced Tier</p> */}
                     </div>
                   </div>
                   <ul className="space-y-2 text-gray-600 text-sm">
@@ -160,18 +160,18 @@ export default function PartnersPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16 rounded-lg flex items-center justify-center">
-                      <img src="https://img.icons8.com/?size=100&id=39913&format=png&color=000000" alt="" />
+                      <img src=".\images\icons\ibm1.png" alt="" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold text-gray-900">Oracle Platinum Partner</h3>
-                      <p className="text-red-600 font-medium">Platinum Level</p>
+                      <h3 className="text-xl font-semibold text-gray-900">IBM Partner</h3>
+                      {/* <p className="text-blue-600 font-medium">Business Partner</p> */}
                     </div>
                   </div>
                   <ul className="space-y-2 text-gray-600 text-sm">
-                    <li>• Oracle Cloud Infrastructure services</li>
-                    <li>• Database migration and optimization</li>
-                    <li>• Enterprise applications integration</li>
-                    <li>• Autonomous database solutions</li>
+                    <li>• IBM Cloud solutions and services</li>
+                    <li>• Watson AI and machine learning</li>
+                    <li>• Hybrid cloud integration</li>
+                    <li>• IBM Security solutions</li>
                   </ul>
                 </CardContent>
               </Card>
@@ -180,11 +180,11 @@ export default function PartnersPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16 rounded-lg flex items-center justify-center">
-                      <img src="https://img.icons8.com/?size=100&id=WHRLQdbEXQ16&format=png&color=000000" alt="" />
+                      <img src=".\images\icons\cloud1.png" alt="" />
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900">Google Cloud Partner</h3>
-                      <p className="text-purple-600 font-medium">Premier Partner</p>
+                      {/* <p className="text-purple-600 font-medium"></p> */}
                     </div>
                   </div>
                   <ul className="space-y-2 text-gray-600 text-sm">
@@ -200,11 +200,11 @@ export default function PartnersPage() {
                 <CardContent className="p-8">
                   <div className="flex items-center space-x-4 mb-6">
                     <div className="w-16 h-16 rounded-lg flex items-center justify-center">
-                      <img src="https://img.icons8.com/?size=100&id=38804&format=png&color=000000" alt="" />
+                      <img src=".\images\icons\salesforce1.png" alt="" />
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-gray-900">Salesforce Partner</h3>
-                      <p className="text-teal-600 font-medium">Consulting Partner</p>
+                      {/* <p className="text-teal-600 font-medium">Consulting Partner</p> */}
                     </div>
                   </div>
                   <ul className="space-y-2 text-gray-600 text-sm">
@@ -244,7 +244,7 @@ export default function PartnersPage() {
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-600">Dell Technologies Partner</span>
+                      <span className="text-gray-600">Extreme Networks Partner</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-500" />
@@ -264,7 +264,7 @@ export default function PartnersPage() {
                   <div className="space-y-3">
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-600">Tableau Technology Partner</span>
+                      <span className="text-gray-600">SAS : Data and Analytics Partners</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-500" />
@@ -276,11 +276,11 @@ export default function PartnersPage() {
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-600">Databricks Partner Program</span>
+                      <span className="text-gray-600">Adobe Creative Cloud</span>
                     </div>
                     <div className="flex items-center space-x-3">
                       <CheckCircle className="h-5 w-5 text-green-500" />
-                      <span className="text-gray-600">Atlassian Solution Partner</span>
+                      <span className="text-gray-600"> Teradata Analytics and Data Partners </span>
                     </div>
                   </div>
                 </CardContent>

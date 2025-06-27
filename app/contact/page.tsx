@@ -145,11 +145,11 @@ export default function ContactPage() {
                           <div className="space-y-2">
                             <div className="flex items-center space-x-2">
                               <Phone className="h-4 w-4 text-gray-500" />
-                              <span className="text-gray-600">+91 (22) 45405800</span>
+                              <span className="text-gray-600">+91 9769074954</span>
                             </div>
                             <div className="flex items-center space-x-2">
                               <Mail className="h-4 w-4 text-gray-500" />
-                              <span className="text-gray-600">hello@marketeyes.in</span>
+                              <span className="text-gray-600">admin@marketeyes.in</span>
                             </div>
                           </div>
                         </div>
@@ -183,7 +183,7 @@ export default function ContactPage() {
                           <div className="space-y-2">
                             <div className="flex items-center space-x-2">
                               <Mail className="h-4 w-4 text-gray-500" />
-                              <span className="text-gray-600">hello@marketeyes.in</span>
+                              <span className="text-gray-600">admin@marketeyes.in</span>
                             </div>
                           </div>
                         </div>
@@ -227,7 +227,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* CTA Section
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <AnimatedSection animation="slideFromTop" className="max-w-4xl mx-auto text-center">
@@ -251,7 +251,7 @@ export default function ContactPage() {
             </motion.div>
           </AnimatedSection>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

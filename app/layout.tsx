@@ -85,11 +85,11 @@ export default function RootLayout({
                       Vision
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href="/about/certificates" className="hover:text-white">
                       Certificates
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a href="/partners" className="hover:text-white">
                       Partners
@@ -101,8 +101,8 @@ export default function RootLayout({
               <div>
                 <h4 className="font-semibold mb-4">Contact</h4>
                 <ul className="space-y-2 text-gray-400">
-                  <li>Mumbai: +91 (22) 45405800</li>
-                  <li>hello@marketeyes.in</li>
+                  <li>Mumbai: +91 9769074954</li>
+                  <li>admin@marketeyes.in</li>
                   <li>Navi Mumbai, Maharashtra</li>
                 </ul>
               </div>

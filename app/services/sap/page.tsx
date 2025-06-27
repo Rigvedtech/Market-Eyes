@@ -272,7 +272,7 @@ export default function SAPServicesPage() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-orange-900"
+                className="bg-white text-orange-900 hover:bg-orange-50"
               >
                 <Link href="/technology/sap-focus">Explore SAP Technology</Link>
               </Button>

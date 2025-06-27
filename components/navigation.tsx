@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 import { motion } from "framer-motion"
@@ -29,8 +30,15 @@ export default function Navigation() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <motion.div variants={navItemAnimation}>
-            <Link href="/" className="text-2xl font-bold text-blue-900">
-              Market Eyes
+            <Link href="/" className="flex items-center">
+              <Image
+                src="/images/logo/logo3.png"
+                alt="Market Eyes Logo"
+                width={80}
+                height={20}
+                className="object-contain  brightness-100 contrast-1000"
+                priority
+              />
             </Link>
           </motion.div>
           {/* Desktop Navigation */}  
@@ -62,7 +70,7 @@ export default function Navigation() {
                           </Link>
                         </NavigationMenuLink>
                         <NavigationMenuLink asChild>
-                          <Link
+                          {/* <Link
                             href="/about/board-of-directors"
                             className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground"
                           >
@@ -70,7 +78,7 @@ export default function Navigation() {
                             <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
                               Meet our leadership team
                             </p>
-                          </Link>
+                          </Link> */}
                         </NavigationMenuLink>
                         <NavigationMenuLink asChild>
                           <Link
